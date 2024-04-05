@@ -236,6 +236,8 @@ while not gameover: # start game loop###########################################
                     if missleBag[i].ypos < ypos + 40:
                         if missleBag[i].ypos > ypos:
                             print("player hit!")
+                            
+                            pygame.quit()
            
 
     #Render section---------------------------------------------------------------------------
